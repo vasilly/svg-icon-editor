@@ -1,0 +1,32 @@
+{
+  "name": "svg-icon-editor",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@bupa-digital/shades": "^1.0.0",
+    "ramda": "^0.25.0",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4",
+    "react": "^16.3.2",
+    "recompose": "^0.27.0"
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "start": "react-scripts start",
+    "storybook-old": "start-storybook -p 9009 -s public",
+    "prestories": "open http://localhost:9001",
+    "stories": "NODE_ENV=development start-storybook -p 9001 -c .storybook; true",
+    "build-storybook": "build-storybook -s public",
+    "test": "react-scripts test --env=jsdom"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.4.3",
+    "@storybook/addon-info": "^3.4.3",
+    "@storybook/addon-knobs": "^3.4.3",
+    "@storybook/addon-links": "^3.4.3",
+    "@storybook/addon-options": "^3.4.3",
+    "@storybook/react": "^3.4.3",
+    "prop-types": "^15.6.1"
+  }
+}
