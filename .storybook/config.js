@@ -23,7 +23,7 @@ addDecorator(story => <Shades to={head}>{story()}</Shades>);
 setOptions({
   name: "Valhalla",
   url:
-    "https://github.com/bupa-digital/valhalla/blob/add-storybook/package.json",
+    "https://github.com/bupa-digital/valhalla",
   goFullScreen: false,
   showLeftPanel: true,
   showDownPanel: true,
